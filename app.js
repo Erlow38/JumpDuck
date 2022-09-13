@@ -4,7 +4,7 @@ window.onload = async () => {
     transition.classList.remove("is-active");
   
     const links = document.querySelectorAll("a.transition");
-    const logo = document.querySelector(".totsuki-logo");
+    const logo = document.querySelector(".jump-logo");
 
     await setTimeout(() => {
       logo.classList.add("scale");
