@@ -1,0 +1,97 @@
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #181818;
+
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+  }
+
+#bg {
+    
+    background: url("boing.jpg");
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+    
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+}
+
+header p {
+    color: white;
+    background-color: #181818;
+    text-align: center;
+    font-size: 30PX;
+    font-family: poppins;
+    font-weight: 800;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2px;
+    border-radius: 10px;
+    position: fixed;
+}
+
+header img {
+    width: 7%;
+    position: fixed;
+}
+
+#jump {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+    padding-top: 50px;
+}
+
+#erlow {
+    font-size: 20PX;
+    font-family: poppins;
+    font-weight: 800;
+    color: white;
+    text-align: end;
+    margin-right: 20px;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: #181818;
+
+
+}
+
+#copy {
+    display: flex;
+    text-align: end;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+  
+#ecriture {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+  
+#ecriture img {
+    width: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 3s;
+}
+  
+#ecriture img.scale {
+    width: 60%;
+}
+  
+#intro {
+    width: 100%;
+}
