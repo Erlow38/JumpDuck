@@ -11,7 +11,7 @@ window.onload = async () => {
     }, 1000);
 
     await setTimeout(() => {
-      window.location.href = "Jump.html";
+      window.location.href = "jump.html";
     }, 2500);
     /**for (let i = 0; i < links.length; i++) {
       const link = links[i];
